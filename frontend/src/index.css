@@ -1,0 +1,10 @@
+:root {
+  font-family: monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: light) {
+}

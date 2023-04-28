@@ -1,0 +1,24 @@
+.rooms-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 0;
+}
+
+.room-element {
+  background-color: #eee;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.room-element:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+.room-element.selected {
+  background-color: #000;
+  color: #fff;
+}
